@@ -4,11 +4,11 @@
 #include "NESController.h"
 
 #include <WProgram.h>
+///< @brief Number of microseconds for a latch pulse.
+#define LATCH_TIME 12
 
-#define LATCH_TIME 12		///< @brief Number of microseconds for
-				///a latch pulse.
-#define CLOCK_TIME 6		///< @brief Number of microseconds for
-				///a clock pulse.
+///< @brief Number of microseconds for a clock pulse.
+#define CLOCK_TIME 6
 
 NESController::NESController(int latch, int clock, int data)
 {
