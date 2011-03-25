@@ -1,0 +1,3 @@
+NESController	KEYWORD1
+ButtonStates	KEYWORD1
+scan	KEYWORD2
